@@ -1,10 +1,10 @@
-'use client';
+'use client'
 import React, { useState } from 'react'
 import { useRouter } from 'next/navigation'
 
 
 
-function Page() {
+export default function Page() {
   const [title,setTitle] = useState('')
   const [description,setDescription] = useState('')
   const  router = useRouter()
@@ -43,7 +43,7 @@ function Page() {
   )
 }
 
-export default Page
+
 
 
 
