@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation'
 
 
 
-function page() {
+function Page() {
   const [title,setTitle] = useState('')
   const [description,setDescription] = useState('')
   const  router = useRouter()
@@ -43,4 +43,7 @@ function page() {
   )
 }
 
-export default page
+export default Page
+
+
+
